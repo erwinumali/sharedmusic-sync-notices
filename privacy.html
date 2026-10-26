@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="description" content="Personal Google Drive file synchronization: purpose, privacy and operating terms.">
+<title>Privacy policy | SharedMusic rclone Sync</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><p class="brand">SharedMusic rclone Sync</p><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="privacy.html" aria-current="page">Privacy policy</a><a href="terms.html">Terms of use</a></nav></header>
+<main id="main"><h1>Privacy policy</h1>
+<p class="lead">This policy covers the owner's personal Google Drive sync utility and these informational pages.</p>
+<h2>Operator and scope</h2>
+<p>SharedMusic rclone Sync is operated by the Google account holder for that account holder's own library. It does not accept public registrations or other people's Google accounts. Separate library search, acquisition and playback tools are outside the scope of this sync utility.</p>
+<h2>Data accessed and why</h2>
+<ul><li><strong>Library files and related metadata:</strong> file contents, names, folder paths and identifiers, sizes, modification times, checksums and other metadata returned with necessary Drive requests. These support listing, copying, comparison and transfer verification.</li><li><strong>Authorization data:</strong> Google OAuth access and refresh tokens and the app's client configuration. These allow the owner-authorized job to authenticate and refresh access.</li><li><strong>Operational records:</strong> copy results, filenames or paths, timestamps, error details and transfer statistics used to run and troubleshoot the job.</li></ul>
+<p>The requested Drive scope is account-wide, although the configured job operates within one designated music-folder hierarchy. This configuration is not a Google-enforced security boundary. The current job does not intentionally process unrelated Drive files or request Gmail, Contacts or Calendar permissions.</p>
+<h2>Use and sharing</h2>
+<p>Data is used to copy and maintain the owner's library, verify transfers, diagnose faults and recover the setup. Copies travel between Google Drive and owner-controlled local storage. Library files may be available to the owner's local library software and included in the owner's private backups.</p>
+<p>The job does not sell Google user data, use it for advertising, send it to data brokers, or use it to train or improve generalized AI or machine-learning models. Access for maintenance is limited to the owner and people the owner expressly authorizes for the relevant data, or access necessary for security or compliance with applicable law.</p>
+<p>The job does not add public links or change Drive permissions. Existing folder sharing still applies, and new files may inherit that sharing. Anyone already permitted by the owner or Google Drive may therefore be able to access those copies.</p>
+<p>Google processes Drive storage, authorization and API requests under its own policies. rclone runs locally as the sync software; this setup does not use an rclone-hosted relay to transfer library contents.</p>
+<h2>Storage and protection</h2>
+<p>Library copies are stored in Google Drive and on owner-controlled local storage. Authorization material and configuration are stored in access-restricted local files and may be included in access-restricted recovery backups. Operational logs remain on the local system and may be included in private recovery or troubleshooting records.</p>
+<p>Drive API connections use HTTPS. Local file permissions and restricted administrative access protect the local setup. This notice does not claim that every local disk, log or backup is encrypted at rest or that any system is completely secure.</p>
+<h2>Retention and deletion</h2>
+<p>Library copies are retained until the owner deletes them. The current copy job does not propagate deletions: removing a file on one side does not remove another copy, and a later copy run may recreate it. Logs and recovery records may remain until overwritten or removed through local maintenance; there is no automatic deletion deadline promised by this notice. Private backups may retain earlier data or authorization material until those backups are replaced or deleted.</p>
+<p>To end access, the owner can stop the scheduled job and revoke the app in <a href="https://myaccount.google.com/connections" rel="noreferrer noopener">Google Account connections</a>. Revocation prevents token renewal and future authorized API use once Google processes it. It does not erase files already copied, logs, configuration or backups. Complete removal requires stopping the job and deleting the relevant local, Drive and backup copies separately, subject to the respective storage system's retention and recovery behavior.</p>
+<h2>These informational pages</h2>
+<p>These static pages contain no sign-in, upload form, analytics script, advertising, third-party fonts or embedded media. They do not receive Google OAuth tokens or library files. A hosting provider may process ordinary web-request information, including IP addresses, for delivery and security. If hosted on GitHub Pages, GitHub logs visitors' IP addresses for security under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer noopener">Privacy Statement</a>. Search-engine indexing is discouraged, but these pages are publicly readable when published; that is not access control.</p>
+<h2>Google API data-use commitment</h2>
+<p>The app's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noreferrer noopener">Google API Services User Data Policy</a>, including its Limited Use requirements. The owner must review this policy and obtain any required consent before introducing a new data use, recipient or account.</p>
+<h2>Questions and changes</h2>
+<p>The account owner controls this private app. Authorization questions can be directed to the support contact identified in Google's consent flow; no personal contact address is republished on these pages. The effective date changes when this notice is revised. Material changes to Google-data handling must be disclosed before they take effect, with renewed consent where required.</p>
+</main>
+<footer><p>Effective and last updated: 26 October 2026.</p><p>Personal app · no public registration</p></footer>
+</body></html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="description" content="Personal Google Drive file synchronization: purpose, privacy and operating terms.">
+<title>Personal library synchronization | SharedMusic rclone Sync</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><p class="brand">SharedMusic rclone Sync</p><nav aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></nav></header>
+<main id="main"><h1>Personal library synchronization</h1>
+<p class="lead">A personal utility for copying a designated music library between local storage and Google Drive.</p>
+<p>The Google account holder operates this app for their own use, using rclone and a scheduled local copy job. It is not a public music service, a Google product, or an app offered for other people to connect their accounts.</p>
+<h2>What it does</h2>
+<ul><li>Copies the local managed library into a designated folder in the owner's Google Drive.</li><li>Copies new files from the designated Drive library into local storage.</li><li>Reads file contents and metadata to list folders, compare copies and check transfers.</li></ul>
+<p>The current job uses copy operations. It does not mirror deletions or change Drive sharing permissions. An updated local file may replace its corresponding managed Drive copy. Newly created files can inherit existing sharing from their destination folder.</p>
+<h2>Google authorization</h2>
+<p>The app uses the Google Drive API with the account owner's consent. The requested Drive permission is account-wide and can permit viewing, editing, creating and deleting Drive files. The job's configuration limits its normal operations to the designated music folder; this is an application setting, not a folder-only permission enforced by Google.</p>
+<p>The broad permission supports reading the pre-existing Drive library and writing updated library copies. The current job does not use that permission to delete files, manage sharing, or process unrelated Drive files.</p>
+<h2>Privacy and control</h2>
+<p>Read the <a href="privacy.html">privacy policy</a> for data access, storage, retention, transfers and revocation. The <a href="terms.html">terms of use</a> describe the personal-use scope and operating limits.</p>
+<p>The owner can stop the local job or revoke its authorization in <a href="https://myaccount.google.com/connections" rel="noreferrer noopener">Google Account connections</a>. This website has no sign-in form and cannot connect an account.</p>
+</main>
+<footer><p>Effective and last updated: 26 October 2026.</p><p>Personal app · no public registration</p></footer>
+</body></html>
